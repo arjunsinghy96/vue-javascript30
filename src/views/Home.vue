@@ -12,19 +12,17 @@
 
 export default {
   name: "home",
-  components: {
-  }
+  components: {}
 };
 </script>
 
 <style lang="postcss">
-.btn{
+.btn {
   @apply py-2 bg-blue-dark px-3 mx-1 my-1 text-white font-semibold rounded-sm;
   transition: all 0.1s ease;
 }
 
-.btn:hover{
-  @apply shadow-md
+.btn:hover {
+  @apply shadow-md;
 }
 </style>
-

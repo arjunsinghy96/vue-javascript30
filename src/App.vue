@@ -11,12 +11,12 @@
 
 <script>
 export default {
-  data(){
+  data() {
     return {
       nav: true
-    }
+    };
   }
-}
+};
 </script>
 
 
@@ -28,7 +28,7 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-.nav{
-  transition: all .2s ease;
+.nav {
+  transition: all 0.2s ease;
 }
 </style>

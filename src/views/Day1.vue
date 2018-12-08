@@ -5,16 +5,14 @@
 </template>
 
 <script>
-import Home from '@/components/Day1/Home.vue'
+import Home from "@/components/Day1/Home.vue";
 export default {
-    name: "day1",
-    components: {
-        Home
-    }
-}
+  name: "day1",
+  components: {
+    Home
+  }
+};
 </script>
 
 <style>
-
 </style>
-
