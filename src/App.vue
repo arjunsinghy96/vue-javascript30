@@ -1,12 +1,24 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <div v-if="nav" class="nav w-12 h-12 hover:shadow-outline shadow-lg rounded-full bg-blue-dark flex flex-1 items-center justify-center fixed pin-b pin-r m-4">
+      <router-link class="no-underline text-black text-2xl font-bold" to="/">
+        <i class="text-white fas fa-home"></i>
+      </router-link>
     </div>
     <router-view/>
   </div>
 </template>
+
+<script>
+export default {
+  data(){
+    return {
+      nav: true
+    }
+  }
+}
+</script>
+
 
 <style lang="scss">
 #app {
@@ -16,14 +28,7 @@
   text-align: center;
   color: #2c3e50;
 }
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+.nav{
+  transition: all .2s ease;
 }
 </style>
