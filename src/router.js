@@ -15,10 +15,14 @@ export default new Router({
       path: "/day1",
       name: "day1",
       // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
+      // this generates a separate chunk (day1.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () =>
-        import(/* webpackChunkName: "about" */ "./views/Day1.vue")
+      component: () => import(/* webpackChunkName: "day1" */ "./views/Day1.vue")
+    },
+    {
+      path: "/day2",
+      name: "day2",
+      component: () => import(/* webpackChunkName: "day2" */ "./views/Day2.vue")
     }
   ]
 });
