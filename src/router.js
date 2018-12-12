@@ -23,6 +23,11 @@ export default new Router({
       path: "/day2",
       name: "day2",
       component: () => import(/* webpackChunkName: "day2" */ "./views/Day2.vue")
+    },
+    {
+      path: "/day3",
+      name: "day3",
+      component: () => import(/* webpackChunkName: "day2" */ "./views/Day3.vue")
     }
   ]
 });

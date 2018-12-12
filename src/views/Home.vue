@@ -3,6 +3,7 @@
     <div class="flex flex-wrap justify-center">
       <router-link class="no-underline btn" to="/day1">01. Drum Kit</router-link>
       <router-link class="no-underline btn" to="/day2">02. Clock</router-link>
+      <router-link class="no-underline btn" to="/day3">03. CSS Variables</router-link>
     </div>
   </div>
 </template>
