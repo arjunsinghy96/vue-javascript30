@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div v-if="nav" class="nav w-12 h-12 hover:shadow-outline shadow-lg rounded-full bg-blue-dark flex flex-1 items-center justify-center fixed pin-b pin-r m-4">
+    <div v-if="nav" class="z-50 nav w-12 h-12 hover:shadow-outline shadow-lg rounded-full bg-blue-dark flex flex-1 items-center justify-center fixed pin-b pin-r m-4">
       <router-link class="no-underline text-black text-2xl font-bold" to="/">
         <i class="text-white fas fa-home"></i>
       </router-link>

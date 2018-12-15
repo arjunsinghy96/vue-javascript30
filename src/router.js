@@ -27,7 +27,12 @@ export default new Router({
     {
       path: "/day3",
       name: "day3",
-      component: () => import(/* webpackChunkName: "day2" */ "./views/Day3.vue")
+      component: () => import(/* webpackChunkName: "day3" */ "./views/Day3.vue")
+    },
+    {
+      path: "/day5",
+      name: "day5",
+      component: () => import(/* webpackChunkName: "day5" */ "./views/Day5.vue")
     }
   ]
 });
