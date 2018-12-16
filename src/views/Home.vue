@@ -15,6 +15,7 @@
       <router-link class="no-underline btn" to="/day2">02. Clock</router-link>
       <router-link class="no-underline btn" to="/day3">03. CSS Variables</router-link>
       <router-link class="no-underline btn" to="/day5">05. Flex Gallery</router-link>
+      <router-link class="no-underline btn" to="/day6">05. Type Ahead Search</router-link>
     </div>
   </div>
 </div>
